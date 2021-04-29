@@ -1,0 +1,12 @@
+extends main
+
+block content 
+  .content.d-inline-block.w-75
+    table.table.table-striped
+      tr 
+        th noCli 
+        th nom 
+        th email 
+        th tel 
+      for client in clients 
+        include includes/client 

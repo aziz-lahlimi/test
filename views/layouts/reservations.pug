@@ -1,0 +1,15 @@
+extends main
+
+block content 
+  .content.d-inline-block.w-75
+    table.table.table-striped
+      tr 
+        th noCli 
+        th noReserv 
+        th montant 
+        th datentre
+        th datesortie
+        th payee
+        th noChambre
+      for reservation in reservations 
+        include includes/reservation 

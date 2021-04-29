@@ -1,0 +1,12 @@
+extends main
+
+block content 
+  .content.d-inline-block.w-75
+    table.table.table-striped
+      tr 
+        th noChambre 
+        th capacite 
+        th typec 
+        th prix 
+      for chambre in chambres 
+        include includes/chambre 
