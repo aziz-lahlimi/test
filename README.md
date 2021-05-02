@@ -15,10 +15,6 @@ Pour monter le site site web j’ai essayé avec le Framework Angular, j’ai tr
 ### TÂCHES PRÉVUES (COMPLÈTÉES)
 Le site web plus accès à la base de données et affichage du contenu des tables qui sont disponibles grâce aux lient  
 
-[Chambres][identifier]
-[Client][identifier]
-[Réservation][identifier]
-
 ###  TÂCHES INCOMPLÈTES ET POURQUOI
 Dissociation entre le backend et le frontend, normalement ils doivent interagirent dans le même outil (Framework) alors que ce n’est pas le cas cela est dû à la conception du site web pour les clients d’une façon isolé comme si je vais présenter juste le site web.
 
